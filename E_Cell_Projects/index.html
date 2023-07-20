@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="description" content="Artemis SLS Rocket">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>/* Global Styles */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, sans-serif;
+          font-size: 16px;
+          line-height: 1.5;
+          color: #333;
+        }
+        
+        h1, h2 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+        
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+        
+        ul {
+          list-style: none;
+        }
+        
+        a {
+          text-decoration: none;
+          color: #333;
+        }
+        
+        button {
+          background-color: #333;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          padding: 0.5rem 1rem;
+          cursor: pointer;
+        }
+        
+        button:hover {
+          background-color: #555;
+        }
+        
+        /* Header Styles */
+        header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #fff;
+          padding: 1rem;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+          display: flex;
+        }
+        
+        nav li {
+          margin-left: 1rem;
+        }
+        
+        /* Hero Section Styles */
+        #rocket {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 80vh;
+          background-color: #f7f7f7;
+        }
+        
+        /* Features Section Styles */
+        #features {
+          padding: 2rem;
+          background-color: #fff;
+        }
+        
+        #features ul {
+          margin-left: 2rem;
+        }
+        
+        
+        
+        /* Pricing Section Styles */
+        #pricing {
+          padding: 2rem;
+          background-color: #fff;
+        }
+        
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          margin-top: 1rem;
+        }
+        
+        thead {
+          background-color: #333;
+          color: #fff;
+        }
+        
+        thead th, tbody td {
+          padding: 1rem;
+          text-align: left;
+        }
+        
+        tbody tr:nth-child(even) {
+          background-color: #f7f7f7;
+        }
+        
+        /* Order Form Section Styles */
+        #order-form {
+          padding: 2rem;
+          background-color: #333;
+          color: #fff;
+        }
+        
+        label {
+          display: block;
+          margin-bottom: 0.5rem;
+        }
+        
+        input[type="text"], input[type="email"], textarea {
+          width: 100%;
+          padding: 0.5rem;
+          margin-bottom: 1rem;
+          border: none;
+          border-radius: 5px;
+        }
+        
+        textarea {
+          height: 5rem;
+        }
+        
+        button[type="submit"] {
+          margin-top: 1rem;
+          width: 100%;
+        }
+        
+        /* Footer Styles */
+        footer {
+          background-color: #333;
+          color: #fff;
+          padding: 1rem;
+          text-align: center;
+        }</style>
+  </head>
+  <body>
+    <header>
+      <h1>ARTEMIS SLS ROCKET(TOY)</h1>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#order-form">Order Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="rocket">
+        <h2>ARTEMIS 1</h2>
+        <P><I><BIG>MOON ROCKET</BIG></I></P>
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/1451B/production/_126472238_sls_expanded_2x640-nc.png" alt="Artemis 1" height="200" width="200">
+      </section>
+
+      <section id="features">
+        <h2>Toy Features</h2>
+        <ul>
+          <li>Made with keeping details of the original launch vehicle in mind</li>
+          <li>Parts can be attached and detached easily</li>
+          <li>For kids over 12 years</li>
+          <li>Helps kid understand the complexity of space launch vehicles in an easy and playful manner</li>
+        </ul>
+      </section>
+
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>With & Without</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>With rocket boosters</td>
+              <td>₹2000/-</td>
+            </tr>
+            <tr>
+              <td>Without rocket boosters</td>
+              <td>₹1200/-</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="order-form">
+        <h2>Order Now</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" required></textarea>
+
+          <label for="payment">Payment:</label>
+          <input type="text" id="payment" name="payment" required>
+
+          <button type="submit">Order Now</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Saransh's Rockets & Co. all rights reserved</p>
+    </footer>
+  </body>
+</html>
+
